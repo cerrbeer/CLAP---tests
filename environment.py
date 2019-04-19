@@ -13,9 +13,19 @@ def randomize_name():
 
 
 # USERS
-demo_user = 'demo@clap.ua'
-demo_pass = '111111'
+demo = [
+    'demo@clap.ua',
+    '111111'
+]
 
 # Using random names for registration
-registration_user = f'{randomize_name()}@testmail.com'
-registration_pass = '111111'
+reg = [
+    'Тестовый',
+    'Аккаунт',
+    'Аккаунтович',
+    f'{randomize_name()}@testmail.com',
+    '0630000745',
+    '111111',
+
+]
+
