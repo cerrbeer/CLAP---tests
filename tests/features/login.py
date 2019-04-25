@@ -1,5 +1,5 @@
-from browser_settings import driver
-from environment import auth_page, demo
+from tests.browser_settings import driver
+from tests.environment import auth_page, demo
 
 
 def login():

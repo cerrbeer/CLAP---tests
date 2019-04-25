@@ -1,5 +1,5 @@
-from browser_settings import driver
-from environment import reg
+from tests.browser_settings import driver
+from tests.environment import reg
 from selenium.common.exceptions import NoSuchElementException
 
 
