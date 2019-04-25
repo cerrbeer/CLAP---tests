@@ -1,10 +1,10 @@
 from browser_settings import driver
-from environment import auth_page, demo, reg
+from environment import reg
 from selenium.common.exceptions import NoSuchElementException
 
 
-def registration():
-    driver.get(auth_page)
+def registration(auth):
+    driver.get(auth)
     try:
         print('Нажимаем кнопку Регистрация')
         driver.find_element_by_css_selector('#loginForm > div.uk-form-row.space-between > span').click()

@@ -3,8 +3,10 @@ from random import choice
 from string import ascii_lowercase
 
 # stage endpoints
-auth_page = 'https://auth.stage.clap.ua/login'
-main_page = 'https://ui.stage.clap.ua/'
+auth_page_stage = 'https://auth.stage.clap.ua/login'
+auth_page_prod = 'https://auth.clap.ua/login'
+main_page_stage = 'https://ui.stage.clap.ua/'
+main_page_prod = 'https://ui.clap.ua/'
 
 
 def randomize_name():
@@ -17,6 +19,7 @@ demo = [
     'demo@clap.ua',
     '111111'
 ]
+
 
 # Using random names for registration
 reg = [
