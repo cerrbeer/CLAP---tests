@@ -1,12 +1,11 @@
 import sys
 
-xa = int(sys.argv)
-xy = int(sys.argv)
+
+def multiply(args):
+    # return args[0] * args[1]
+    print(int(args[1]) * int(args[2]))
+    print(args[2])
 
 
-def multiply(a, b):
-    return a * b
-
-
-if __name__ == '__main__':
-    print(multiply(xa, xy))
+# if __name__ == '__main__':
+multiply(sys.argv)

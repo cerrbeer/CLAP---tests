@@ -1,30 +1,26 @@
-from .environment import *
+from environment import *
 import sys
 sys.path.append('.')
 sys.path.append('../tests')
 
-env = ''
+envs = ''
 
 
-def get_env():
-    env = sys.argv[1]
-    return env
-
-
-def acceptance_test(env):
+def main(env):
 
     if env == 'stage':
         auth = auth_page_stage
-        main = main_page
-        print(auth, main_page)
+        ui = main_page_stage
+        print(auth, ui)
+        return auth, ui
     elif env == 'prod':
-        auth = auth_page
-        main = main_page
-        print(auth, main_page)
+        auth = auth_page_prod
+        ui = main_page_prod
+        print(auth, ui)
+        return auth, ui
 
 
-if __name__ == "__main__":
-    acceptance_test(get_env())
+main(sys.argv)
 
 # acceptance_test(envir)
 # Registration
