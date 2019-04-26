@@ -1,7 +1,7 @@
 # here store a const and variables for global project
 from random import choice
 from string import ascii_lowercase
-from .regression_test import envs
+
 # stage endpoints
 auth_page_stage = 'https://auth.stage.clap.ua/login'
 auth_page_prod = 'https://auth.clap.ua/login'

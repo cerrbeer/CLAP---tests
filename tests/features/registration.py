@@ -1,9 +1,12 @@
+import sys
+sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 from tests.browser_settings import driver
 from tests.environment import reg
 from selenium.common.exceptions import NoSuchElementException
 
 
 def registration(auth):
+    print(auth)
     driver.get(auth)
     try:
         print('Нажимаем кнопку Регистрация')
@@ -33,6 +36,3 @@ def registration(auth):
         driver.save_screenshot('0.png')
 
     driver.close()
-
-
-registration()

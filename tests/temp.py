@@ -1,5 +1,8 @@
 import sys
 
+sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
+import tests.features.registration
+
 
 def multiply(args):
     # return args[0] * args[1]
@@ -7,5 +10,5 @@ def multiply(args):
     print(args[2])
 
 
-# if __name__ == '__main__':
-multiply(sys.argv)
+if __name__ == '__main__':
+    tests.features.registration.registration(sys.argv[1])

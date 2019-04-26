@@ -1,3 +1,5 @@
 .idea/
 .idea/workspace.xml
 .idea/workspace.xml
+tests/__pycache__/environment.cpython-37.pyc
+tests/__pycache__/regression_test.cpython-37.pyc
