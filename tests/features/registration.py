@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 from tests.browser_settings import driver
-from tests.environment import reg
+from tests.environment import reg, randomize_name
 from selenium.common.exceptions import NoSuchElementException
 
 
@@ -20,7 +20,8 @@ def registration(auth):
         print('Нажимаем Next')
         driver.find_element_by_id('nextBtn').click()
         print('Заполняем Email')
-        driver.find_element_by_id('registrationUserName').send_keys(reg[3])
+        # driver.find_element_by_id('registrationUserName').send_keys(reg[3])
+        driver.find_element_by_id('registrationUserName').send_keys(randomize_name())
         print('Заполняем Phone number')
         driver.find_element_by_id('registrationPhoneNumber').send_keys(reg[4])
         print('Нажимаем Next')
@@ -35,4 +36,7 @@ def registration(auth):
     except NoSuchElementException:
         driver.save_screenshot('0.png')
 
-    driver.close()
+    # driver.close()
+
+
+# registration('https://auth.clap.ua/login')
