@@ -1,5 +1,5 @@
 # here store a const and variables for global project
-from random import choice
+from random import choice, randint
 from string import ascii_lowercase
 from datetime import datetime
 
@@ -19,6 +19,12 @@ def randomize_name():
     return login
 
 
+def randomize_phone():
+    cipher = randint(1000000, 7654654)
+    phone = f'063{cipher}'
+    return phone
+
+
 # USERS
 demo = [
     'demo@clap.ua',
@@ -33,11 +39,9 @@ reg = [
     'Аккаунтович',
     'заглушка',
     # f'{randomize_name()}@testmail.com',
-    '0630000745',
+    f'{randomize_phone()}',
     '111111'
 ]
-
-
 
 # if __name__ == "__main__":
 #     pass

@@ -12,6 +12,7 @@ sys.path.append('/tests/features')
 
 def get_argument():
     auth = sys.argv[1]
+    # auth = 'stage'
     print(auth)
     return auth
 
