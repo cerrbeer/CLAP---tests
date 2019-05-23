@@ -3,6 +3,7 @@ import sys
 sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 from tests.features.registration import registration
 from tests.features.login import login
+from tests.features.add_new_flat import add_flat
 debug = True
 
 sys.path.append('.')
@@ -45,6 +46,7 @@ def main(env):
 
 registration(main(arg)[0])
 login('https://ui.stage.clap.ua/')
+add_flat('https://ui.stage.clap.ua/')
 # registration(main(sys.argv[1])[0])
 # login(main(sys.argv[1])[0])
 # registration(main('stage'))

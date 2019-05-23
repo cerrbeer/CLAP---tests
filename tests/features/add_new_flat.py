@@ -1,11 +1,23 @@
-from tests.browser_settings import driver
+from random import randint
+from tests.browser_settings import driver, session_id
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.keys import Keys
 
 
 def add_flat(auth):
-
+    driver.session_id = session_id
     driver.get(auth)
-    print("-Добавление квартиры")
-    driver.find_element_by_id('createNewApartmentBtn').click()
-    print("--Заполняем Город, дом улица")
-    driver.find_element_by_id('address').send_keys("улица Соборная, 24, Винница, Винницкая область, Украина")
-
+    try:
+        print("-Добавление квартиры")
+        driver.save_screenshot('add_flat_init.png')
+        driver.find_element_by_id('createNewApartmentBtn').click()
+        driver.save_screenshot('createNewApartmentBtn.png')
+        print("--Заполняем Город, дом улица")
+        driver.find_element_by_id('address').send_keys("улица Соборная, 3, Винница, Винницкая область, Украина", Keys.ENTER)
+        driver.save_screenshot('address.png')
+        driver.find_element_by_xpath('//*[@id="createNewApartmentForm"]/div[5]/input').click()
+        driver.save_screenshot('finish.png')
+    except ChildProcessError:
+        pass
+    # except NoSuchElementException:
+    #     driver.save_screenshot(f'NoSuchElementException{add_flat.__name__}.png')

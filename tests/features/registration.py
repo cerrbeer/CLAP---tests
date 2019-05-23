@@ -34,7 +34,7 @@ def registration(auth):
         driver.find_element_by_id('doneBtn').click()
         driver.save_screenshot('1.png')
     except NoSuchElementException:
-        driver.save_screenshot('0.png')
+        driver.save_screenshot(f'NoSuchElementException{registration.__name__}.png')
 
     # driver.close()
 
