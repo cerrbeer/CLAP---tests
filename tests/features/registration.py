@@ -1,10 +1,13 @@
-from browser_settings import driver
-from environment import auth_page, demo, reg
+import sys
+sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
+from tests.browser_settings import driver
+from tests.environment import reg, randomize_name
 from selenium.common.exceptions import NoSuchElementException
 
 
-def registration():
-    driver.get(auth_page)
+def registration(auth):
+    print(auth)
+    driver.get(auth)
     try:
         print('Нажимаем кнопку Регистрация')
         driver.find_element_by_css_selector('#loginForm > div.uk-form-row.space-between > span').click()
@@ -17,7 +20,8 @@ def registration():
         print('Нажимаем Next')
         driver.find_element_by_id('nextBtn').click()
         print('Заполняем Email')
-        driver.find_element_by_id('registrationUserName').send_keys(reg[3])
+        # driver.find_element_by_id('registrationUserName').send_keys(reg[3])
+        driver.find_element_by_id('registrationUserName').send_keys(randomize_name())
         print('Заполняем Phone number')
         driver.find_element_by_id('registrationPhoneNumber').send_keys(reg[4])
         print('Нажимаем Next')
@@ -28,11 +32,12 @@ def registration():
         driver.find_element_by_id('registrationRePassword').send_keys(reg[5])
         print('Нажимаем Complete')
         driver.find_element_by_id('doneBtn').click()
-        driver.save_screenshot('1.png')
+        # driver.save_screenshot('1.png')
     except NoSuchElementException:
-        driver.save_screenshot('0.png')
+        driver.save_screenshot(f'NoSuchElementException{registration.__name__}.png')
+        driver.close()
 
-    driver.close()
+    # driver.close()
 
 
-registration()
+# registration('https://auth.clap.ua/login')
