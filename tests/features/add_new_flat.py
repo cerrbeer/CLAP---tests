@@ -1,4 +1,3 @@
-from random import randint
 from tests.browser_settings import driver, session_id
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
