@@ -2,6 +2,7 @@ from random import randint
 from tests.browser_settings import driver, session_id
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
+from time import sleep
 
 
 def add_flat(auth):
@@ -16,8 +17,9 @@ def add_flat(auth):
         driver.find_element_by_id('address').send_keys("улица Соборная, 3, Винница, Винницкая область, Украина", Keys.ENTER)
         driver.save_screenshot('address.png')
         driver.find_element_by_xpath('//*[@id="createNewApartmentForm"]/div[5]/input').click()
+        sleep(4)
         driver.save_screenshot('finish.png')
-    except ChildProcessError:
-        pass
-    # except NoSuchElementException:
-    #     driver.save_screenshot(f'NoSuchElementException{add_flat.__name__}.png')
+        driver.close()
+    except NoSuchElementException:
+        driver.save_screenshot(f'NoSuchElementException{add_flat.__name__}.png')
+        driver.close()
