@@ -1,10 +1,12 @@
 from environment import auth_page_stage, auth_page_prod, main_page_stage, main_page_prod
 import sys
-sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 from tests.features.registration import registration
 from tests.features.login import login
 from tests.features.add_new_flat import add_flat
+
+
 debug = True
+sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 
 sys.path.append('.')
 sys.path.append('/tests')
