@@ -1,4 +1,4 @@
-from environment import auth_page_stage, auth_page_prod, main_page_stage, main_page_prod
+from environment import auth_page_stage, auth_page_prod
 import sys
 sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 
