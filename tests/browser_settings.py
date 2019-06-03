@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-CHROME_VERSION = '73'
+CHROME_VERSION = '72'
 
 # driver = webdriver.Chrome(f'E:/PythonProjects/CLAP---tests/chromedriver{CHROME_VERSION}.exe')
 driver = webdriver.Remote(
@@ -8,3 +8,4 @@ driver = webdriver.Remote(
     desired_capabilities={'browserName': 'chrome', 'javascriptEnabled': True})
 
 session_id = driver.session_id
+
