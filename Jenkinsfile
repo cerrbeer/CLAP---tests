@@ -2,7 +2,7 @@ pipeline {
 	agent {
 		docker {
 		    image 'selenium/standalone-chrome:3.141.59-neon'
-
+			image 'cerrbeer/python3.7'
 			
 		}
 	}
