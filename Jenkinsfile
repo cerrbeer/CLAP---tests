@@ -3,9 +3,11 @@ pipeline {
 		docker {
 		    image 'selenium/standalone-chrome:3.141.59-neon'
 		 }
+	agent {
 		docker {
 		    image 'cerrbeer/python3.7'
 		 }
+	}
 	}
 	stages {
 		stage('test') {
