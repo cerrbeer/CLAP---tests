@@ -12,7 +12,7 @@ pipeline {
 		}
 		stage('test') {
 			steps {
-				sh 'python tests/regression_test.py'
+				sh 'python regression_test.py stage'
 				}
 			}
 	}
