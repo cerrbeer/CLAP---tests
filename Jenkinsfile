@@ -5,6 +5,11 @@ pipeline {
 		}
 	}
 	stages {
+		stage('build') {
+			steps {
+			sh 'pip install selenium'
+			}
+		}
 		stage('test') {
 			steps {
 				sh 'python tests/regression_test.py stage'
