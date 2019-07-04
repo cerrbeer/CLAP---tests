@@ -1,8 +1,9 @@
 import sys
-sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
-from tests.browser_settings import driver
-from tests.environment import reg, randomize_name
+from browser_settings import driver
+from environment import reg, randomize_name
 from selenium.common.exceptions import NoSuchElementException
+
+sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 
 
 def registration(auth):

@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52bedec3-c112-43de-a535-e1f73c7c9e60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CLAP - tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CLAP - tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/CLAP---tests/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/config_schema_v2.0.json" beforeDir="false" afterPath="$PROJECT_DIR$/config_schema_v2.0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver72.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tests/chromedriver72.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver73.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tests/chromedriver73.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver74.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tests/chromedriver74.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/browser_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/browser_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/add_new_flat.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/add_new_flat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/regression_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/regression_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +27,77 @@
     <favorites_list name="CLAP - tests" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/regression_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="-216">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/finish.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/registration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="-441">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/browser_settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/add_new_flat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="94" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#54#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,16 +132,18 @@
         <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
         <option value="$PROJECT_DIR$/tests/names.txt" />
         <option value="$PROJECT_DIR$/tests/features/names.txt" />
-        <option value="$PROJECT_DIR$/tests/environment.py" />
         <option value="$PROJECT_DIR$/tests/temp.py" />
         <option value="$PROJECT_DIR$/tests/features/add_new_flat.py" />
-        <option value="$PROJECT_DIR$/tests/features/registration.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/features/login.py" />
-        <option value="$PROJECT_DIR$/tests/browser_settings.py" />
-        <option value="$PROJECT_DIR$/tests/regression_test.py" />
         <option value="$PROJECT_DIR$/venv/pyvenv.cfg" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/tests/features/registration.py" />
+        <option value="$PROJECT_DIR$/tests/login.py" />
+        <option value="$PROJECT_DIR$/tests/browser_settings.py" />
+        <option value="$PROJECT_DIR$/tests/regression_test.py" />
+        <option value="$PROJECT_DIR$/tests/environment.py" />
+        <option value="$PROJECT_DIR$/tests/add_new_flat.py" />
       </list>
     </option>
   </component>
@@ -109,7 +170,7 @@
             <path>
               <item name="CLAP---tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="CLAP---tests" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,12 +184,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PythonProjects\CLAP---tests" />
-      <recent name="E:\PythonProjects\CLAP---tests\tests" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PythonProjects\CLAP---tests\tests\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\CLAP---tests\tests" />
+      <recent name="E:\PythonProjects\CLAP---tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,27 +336,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/features/names.txt" />
     <entry file="file://$PROJECT_DIR$/tests/features/1.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/string.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/encoder.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -303,20 +346,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1369" selection-start-line="1369" selection-end-line="1369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/platform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/platform.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -331,13 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/_collections_abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="661" selection-start-line="661" selection-end-line="661" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/_collections_abc.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -359,13 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/parse.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -408,21 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/registration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/1.png" />
-    <entry file="file://$PROJECT_DIR$/tests/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/address.png" />
     <entry file="file://$PROJECT_DIR$/tests/names.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,40 +466,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/add_flat_init.png" />
-    <entry file="file://$PROJECT_DIR$/tests/browser_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/createNewApartmentBtn.png" />
-    <entry file="file://$PROJECT_DIR$/tests/finish.png" />
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/add_new_flat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,20 +482,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/regression_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#54#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/finish.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/browser_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/add_new_flat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="94" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

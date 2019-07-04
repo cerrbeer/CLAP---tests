@@ -1,8 +1,8 @@
 import sys
 import os
-from tests.browser_settings import driver, session_id
+from browser_settings import driver, session_id
 from selenium.common.exceptions import NoSuchElementException
-from tests.environment import demo
+from environment import demo
 sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
 
 
