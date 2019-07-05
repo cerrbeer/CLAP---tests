@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
-				sh 'python -m pip --user install selenium'
+				sh 'python -m pip install --user selenium'
 				}
 			}
         stage('test') {
