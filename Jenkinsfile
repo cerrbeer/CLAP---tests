@@ -9,10 +9,11 @@ pipeline {
 			steps {
 				sh 'pip3 install selenium'
 				}
-			}		stage('test') {
-			steps {
-				sh 'python tests/regression_test.py stage'
-				}
+			}
+        stage('test') {
+            steps {
+                sh 'python tests/regression_test.py stage'
+                }
 			}
 	}
 }
