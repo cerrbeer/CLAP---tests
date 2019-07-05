@@ -7,7 +7,7 @@ pipeline {
 	stages {
         stage('build') {
             steps {
-                sh 'pip show selenium'
+                sh 'pip3 show selenium'
                 }
 			}
         stage('test') {
