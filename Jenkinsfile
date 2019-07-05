@@ -7,6 +7,7 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
+				sh 'sudo su jenkins'
 				sh 'sudo -H pip install selenium'
 				}
 		}
