@@ -5,12 +5,6 @@ pipeline {
 		}
 	}
 	stages {
-		stage('build') {
-			steps {
-				sh 'sudo su jenkins'
-				sh 'sudo -H pip install selenium'
-				}
-		}
 		stage('test') {
 			steps {
 				sh 'python tests/regression_test.py stage'
