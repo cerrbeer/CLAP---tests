@@ -4,15 +4,8 @@ from environment import auth_page_stage, auth_page_prod
 from registration import registration
 from login import login
 from add_new_flat import add_flat
-
-# sys.path.insert(0, '~/CLAP---tests/')
-
 debug = True
-# sys.path.insert(0, 'E:/PythonProjects/CLAP---tests/')
-
 sys.path.append('.')
-# sys.path.append('/tests')
-# sys.path.append('/tests/features')
 
 
 def main():
