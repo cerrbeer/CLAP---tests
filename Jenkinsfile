@@ -5,7 +5,12 @@ pipeline {
 		}
 	}
 	stages {
-        stage('test') {
+        stage('build') {
+            steps {
+                sh 'pip show selenium'
+                }
+			}
+			stage('test') {
             steps {
                 sh 'python tests/regression_test.py stage'
                 }
